@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+}
+.allSquare{
+    width: 600px;
+    height: 600px;
+    border: 5px solid black;
+    margin: 200px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.sqare{
+    width: 200px;
+    height: 200px;
+    background: red;
+    position: absolute;
+}
+/*.sqare:hover {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background: blue;
+}*/
+
+.figure{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    transition: 2s;
+}
+.bottomRight{
+    bottom: 0;
+    right: 0;
+}
+.bottomginLeft{
+    bottom: 0;
+    left: 0; 
+}
+.topleft{
+    top: 0;
+    left: 0;
+}
+.topRight{
+    top: 0;
+    right: 0;
+}
+.centre{
+    margin: 200px;
+}
+    /*figure elephant*/
+.king{
+    top: 0;
+    right: 200px;
+}
+.king:hover{
+    width: 200px;
+    height: 200px;
+    top: 200px;
+    right: 0;
+}
+
+    
+    /*figure tura*/
+.tura{
+    bottom: 0;
+    right: 200px;
+}
+
+.tura:hover {
+    width: 200px;
+    height: 200px;
+    bottom: 400px;
+    right: 200px;
+}
+   /* figure horse*/
+.hors{
+    top: 200px;
+    bottom: 0px;
+}
